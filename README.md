@@ -1,4 +1,6 @@
-# ms-advent-of-code-2020
+# Mikey's Advent of Code Attempt 2020
+
+![advent-of-code-2020](https://media0.giphy.com/media/l0MYGb1LuZ3n7dRnO/giphy.gif)
 
 ## Setup and run
 
