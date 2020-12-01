@@ -1,0 +1,25 @@
+{
+  "name": "mikeys-advent-of-code-2020",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mikey Stewart",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.2.1"
+  },
+  "lint-staged": {
+    "*.{json,md}": "prettier --write",
+    "*.{js,ts}": "eslint --fix"
+  }
+}
