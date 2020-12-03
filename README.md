@@ -12,3 +12,4 @@
 
 - 1st Tuesday
 - 2nd Wednesday
+- 3rd Thursday
