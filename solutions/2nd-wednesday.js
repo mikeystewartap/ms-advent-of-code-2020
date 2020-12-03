@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 module.exports = async () => {
-  const inputString = await fs.readFileSync('./input/2nd-wednesday-part1.txt', 'utf8');
+  const inputString = await fs.readFileSync('./input/2nd-wednesday.txt', 'utf8');
 
   const passwords = inputString.split('\n').map((rawPasswordData) => {
     const passwordInfo = rawPasswordData.split(' ');
@@ -24,7 +24,15 @@ module.exports = async () => {
   const validPasswordsPartTwo = passwords.filter((password) => {
     const characterOneValue = password.value[password.characterCountMin - 1];
     const characterTwoValue = password.value[password.characterCountMax - 1];
-    return characterOneValue === password.character || characterTwoValue === password.character;
+
+    let validCharCount = 0;
+    if (characterOneValue === password.character) {
+      validCharCount += 1;
+    }
+    if (characterTwoValue === password.character) {
+      validCharCount += 1;
+    }
+    return validCharCount === 1;
   });
 
   return {

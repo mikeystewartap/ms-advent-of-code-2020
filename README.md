@@ -11,3 +11,4 @@
 ## Solutions Completed
 
 - 1st Tuesday
+- 2nd Wednesday
