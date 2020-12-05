@@ -10,6 +10,7 @@
 
 ## Solutions Completed
 
-- 1st Tuesday
-- 2nd Wednesday
-- 3rd Thursday
+- [1st Tuesday](solutions/1st-tuesday.js)
+- [2nd Wednesday](solutions/2nd-wednesday.js)
+- [3rd Thursday](solutions/3rd-thursday.js)
+- [4th Friday](solutions/4th-friday.js)
