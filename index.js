@@ -1,21 +1,21 @@
 /* eslint-disable no-console */
-const FirstTuesday = require('./solutions/1st-tuesday');
-const SecondWednesday = require('./solutions/2nd-wednesday');
-const ThirdThursday = require('./solutions/3rd-thursday');
-const FourthFriday = require('./solutions/4th-friday');
+const Solutions = require('./solutions');
 
 const main = async () => {
-  const firstTuesdayResult = await FirstTuesday();
+  const firstTuesdayResult = await Solutions.firstTuesday();
   console.log('1st Tuesday: ', firstTuesdayResult);
 
-  const secondTuesdayResult = await SecondWednesday();
+  const secondTuesdayResult = await Solutions.secondWednesday();
   console.log('2nd Wednesday: ', secondTuesdayResult);
 
-  const thirdThursdayResult = await ThirdThursday();
+  const thirdThursdayResult = await Solutions.thirdThursday();
   console.log('3rd Thursday: ', thirdThursdayResult);
 
-  const fourthFridayResult = await FourthFriday();
+  const fourthFridayResult = await Solutions.fourthFriday();
   console.log('4th Friday: ', fourthFridayResult);
+
+  const fifthSaturdayResult = await Solutions.fifthSaturday();
+  console.log('5th Saturday: ', fifthSaturdayResult);
 };
 
 main();

@@ -14,3 +14,4 @@
 - [2nd Wednesday](solutions/2nd-wednesday.js)
 - [3rd Thursday](solutions/3rd-thursday.js)
 - [4th Friday](solutions/4th-friday.js)
+- [5th Saturday](solutions/5th-saturday.js)
