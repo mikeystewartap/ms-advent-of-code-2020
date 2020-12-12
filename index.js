@@ -16,6 +16,9 @@ const main = async () => {
 
   const fifthSaturdayResult = await Solutions.fifthSaturday();
   console.log('5th Saturday: ', fifthSaturdayResult);
+
+  const sixthSundayResult = await Solutions.sixthSunday();
+  console.log('6th Sunday: ', sixthSundayResult);
 };
 
 main();
