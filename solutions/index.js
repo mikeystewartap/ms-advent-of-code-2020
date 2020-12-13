@@ -4,6 +4,7 @@ const thirdThursday = require('./3rd-thursday');
 const fourthFriday = require('./4th-friday');
 const fifthSaturday = require('./5th-saturday');
 const sixthSunday = require('./6th-sunday');
+const seventhMonday = require('./7th-monday');
 
 module.exports = {
   firstTuesday,
@@ -12,4 +13,5 @@ module.exports = {
   fourthFriday,
   fifthSaturday,
   sixthSunday,
+  seventhMonday,
 };
