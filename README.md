@@ -17,3 +17,4 @@
 - [5th Saturday](solutions/5th-saturday.js)
 - [6th Sunday](solutions/6th-sunday.js)
 - [7th Monday](solutions/7th-monday.js)
+- [8th Tuesday](solutions/8th-tuesday.js)
