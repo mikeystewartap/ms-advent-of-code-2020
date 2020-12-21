@@ -28,6 +28,9 @@ const main = async () => {
 
   const ninthWednesdayResult = await Solutions.ninthWednesday();
   console.log('9th Wednesday: ', ninthWednesdayResult);
+
+  const tenthThursdayResult = await Solutions.tenthThursday();
+  console.log('10th Thursday: ', tenthThursdayResult);
 };
 
 main();

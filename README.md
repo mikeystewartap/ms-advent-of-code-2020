@@ -19,3 +19,4 @@
 - [7th Monday](solutions/7th-monday.js)
 - [8th Tuesday](solutions/8th-tuesday.js)
 - [9th Wednesday](solutions/9th-wednesday.js)
+- [10th Thursday](solutions/10th-thursday.js)
